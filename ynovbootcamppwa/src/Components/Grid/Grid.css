@@ -1,0 +1,14 @@
+.Grid{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+grid-gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+ .Grid{
+    grid-gap: unset;
+ }
+}
+
+

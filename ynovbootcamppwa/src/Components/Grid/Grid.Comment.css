@@ -1,0 +1,35 @@
+.Grid{
+/*----------------------------------------------------
+display flex va aligner tous les éléments enfants sur une même ligne
+-----------------------------------------------------*/
+display: flex;
+/*----------------------------------------------------
+flex-wrap va creer une nouvelle ligne pour chaque 
+éléments sortant de la page web
+-----------------------------------------------------*/
+ flex-wrap: wrap;
+ /*----------------------------------------------------
+justify-content center va centrer tous les éléments sur l'axe Y
+-----------------------------------------------------*/
+justify-content: center;
+/*----------------------------------------------------
+grid-gap va mettre une marge de 20px pour chaque éléments
+-----------------------------------------------------*/
+grid-gap: 20px;
+}
+
+/*----------------------------------------------------
+@media va connaitre la taille de l'écran et jusqu'a 
+600px il va ajouter les propriètès en dessous
+-----------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+ .Grid{
+    grid-gap: unset;
+ }
+}
+
+
+
+html,body,#root{
+    background-color: black;
+}

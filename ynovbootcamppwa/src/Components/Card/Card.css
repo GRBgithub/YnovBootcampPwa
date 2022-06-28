@@ -1,0 +1,12 @@
+.Card{
+    width: 30vw;
+    justify-self: center;
+    position: relative;
+}
+
+.Card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
